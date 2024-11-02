@@ -29,10 +29,10 @@ setuptools.setup(
     install_requires=[
         'tqdm',
         'torch',
-        'transformers',
+        'transformers==4.46.1',
         'accelerate',
         'safetensors',
-        'optimum',
+        'optimum==1.23.3',
         'huggingface-hub',
         'scipy',
         #'bitsandbytes' set it to optional to support fallback when not installable
